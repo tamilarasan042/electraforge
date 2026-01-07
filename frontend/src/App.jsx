@@ -1,6 +1,6 @@
 
 import './App.css'
-import Electro from './ElectraForge/electro'
+import Electro from './ElectraForge/Electro'
 
 function App() {
 
