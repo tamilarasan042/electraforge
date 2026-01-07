@@ -1,0 +1,131 @@
+/* General Page Style */
+
+.about-page {
+  font-family: 'Poppins', sans-serif;
+  color: #4d2336;
+  min-height: 100vh;
+    background: linear-gradient(135deg, #4b3c4f, #124b6c);
+  overflow-x: hidden;
+}
+
+/* Header */
+.about-header {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: linear-gradient(90deg, #ffecf5, #ffd9ec);
+  border-bottom-left-radius: 50% 12%;
+  border-bottom-right-radius: 50% 12%;
+  box-shadow: 0 6px 20px rgba(255, 150, 180, 0.25);
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #561435ff;
+  margin-bottom: 10px;
+}
+
+.about-tagline {
+  color: #561435ff;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Story Section */
+.about-story {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.story-text {
+  max-width: 800px;
+  background: rgba(43, 11, 111, 0.75);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(69, 44, 51, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.story-text h2 {
+  color: rgb(184, 183, 218);
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.story-text p {
+  line-height: 1.7;
+  color: #8d8993;
+  font-size: 1.1rem;
+}
+
+/* Parallax Image Sections */
+.parallax {
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.95);
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 8px 30px rgba(255, 150, 180, 0.25);
+}
+
+
+.img1 {
+  background-image: url('/Images/apple.png');
+}
+
+.img2 {
+  background-image: url('/Images/smartwatch.png');
+}
+
+.img3 {
+  background-image: url('/Images/playstation.png');
+}
+
+.img4 {
+  background-image: url('/Images/earbuds.png');
+}
+
+.img5 {
+  background-image: url('/Images/lap.png');
+}
+
+.img6 {
+  background-image: url('/Images/camera.png');
+}
+
+/* Promise Section */
+.about-promise {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #2d2472, #22158b);
+  border-radius: 40px 40px 0 0;
+}
+
+.about-promise h2 {
+  color: rgb(209, 143, 176);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-promise p {
+  color: #464995;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Footer */
+.about-footer {
+  text-align: center;
+  padding: 25px 10px;
+  background: linear-gradient(90deg, #ffd9ec, #fff4f9);
+  color: #944667;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -4px 15px rgba(255, 150, 180, 0.2);
+}

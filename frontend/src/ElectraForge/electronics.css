@@ -1,0 +1,194 @@
+* {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.cc-app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d0f12, #1c2430);
+  padding: 24px;
+  color: #e6e9ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.cc-header {
+  background: linear-gradient(90deg, #1e1f24, #2b3038);
+  padding: 18px 28px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  margin-bottom: 18px;
+}
+.cc-title {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #00eaff;
+}
+
+/* Main */
+.cc-main {
+  width: 100%;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 18px;
+  align-items: start;
+}
+
+/* Form */
+.cc-form {
+  background: #1e262e;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cc-input,
+.cc-file {
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #2a323d;
+  color: #e8ecf1;
+}
+.cc-file {
+  padding: 6px;
+}
+
+/* Buttons */
+.cc-btn {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.cc-primary {
+  background: linear-gradient(90deg, #00ffb2, #00eaff);
+  color: #003b3f;
+}
+.cc-delete {
+  background: transparent;
+  color: #ff5964;
+  border: 1px solid rgba(255, 89, 100, 0.4);
+}
+
+/* Cards List */
+.cc-list {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+.cc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+.cc-card {
+  background: #1f252d;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+.cc-card-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  background: linear-gradient(90deg, #004b75, #1e90ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.cc-placeholder {
+  font-size: 2.2rem;
+  padding: 8px;
+  color: #00eaff;
+}
+.cc-card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cc-card-title {
+  margin: 0;
+  font-size: 1rem;
+  color: #00eaff;
+}
+.cc-card-flavor {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #9da8b5;
+}
+.cc-card-price {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #00ffb2;
+}
+
+/* Edit/Delete buttons */
+.cc-card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 8px;
+}
+.cc-edit,
+.cc-delete {
+  background: #2a323d;
+  border-radius: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+  color: #e6e9ef;
+}
+.cc-edit:hover {
+  background: #3a4450;
+}
+.cc-delete:hover {
+  background: #3a2e2e;
+}
+
+/* Edit modal */
+.cc-edit-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+}
+.cc-edit-box {
+  background: #1e1f24;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 255, 225, 0.2);
+  width: 300px;
+  text-align: center;
+  color: #e6e9ef;
+}
+
+/* Auth / Admin */
+.auth-box,
+.admin-container {
+  background: linear-gradient(135deg, #1a1f24, #242b33);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.1);
+  width: 350px;
+  margin: 40px auto;
+  text-align: center;
+  color: #e6e9ef;
+}
